@@ -11,8 +11,8 @@ add_definitions(-DCANDLE_API_LIBRARY -DUNICODE)
 set_target_properties(candle_api PROPERTIES PREFIX "")
 
 target_link_libraries(candle_api
-	SetupApi
+	setupapi
 	winusb
-	Ole32
+	ole32
 )
 
